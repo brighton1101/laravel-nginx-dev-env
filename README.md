@@ -20,6 +20,7 @@ Installation instructions can be found [here](https://docs.docker.com/install/)
 ### Commands:
 - `make build` : Builds nginx and laravel containers
 - `make up` : Starts the containers and runs then in background (docker detached mode)
+- `make bash` : Bashes into container running laravel app.
 - `make down` : Stops the containers
 - `make init` : Initializes laravel app from inside container. SHOULD ONLY BE RUN ONCE
 - `make` : Executes `make down`, `make build`, and `make up`.
