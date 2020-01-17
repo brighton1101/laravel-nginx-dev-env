@@ -2,13 +2,13 @@
 
 ## Automatically create a local laravel dev environment
 
-## To access application in browser, go to `localhost:80` or `localhost`
+### To access application in browser, go to `localhost`
 
-## Dependencies:
+### Dependencies:
 - Ensure you have docker properly installed so you can use `docker-compose` and pull from docker hub.
 Installation instructions can be found [here](https://docs.docker.com/install/)
 
-## Example Usage:
+### Example Usage:
 0. Make sure you have docker installed
 1. Download [this repo] into empty directory where you want to start your project from. Do not clone the repo as you do not want git to track your project as a part of this app generator.
 2. Issue the command `make build` to build the containers
